@@ -47,7 +47,7 @@ The check target runs pytest, Ruff linting, Ruff format validation, and a reposi
 - `assignment/data/`: recovered sequence inputs stored as FASTA files
 - `solution/recovered_hw5.py`: my recovered submitted source, kept for provenance
 - `solution/recovered_genome_analysis.py`: my recovered sequence-analysis script, kept for provenance
-- `solution/written-answers.pdf`: my exported written answers with identifying metadata reduced to the author's name
+- `solution/written-answers.pdf`: my exported written answers
 - `hw5.py`: compatibility wrapper exposing the maintained assignment API for local tester use
 - `src/extended_intro_hw5/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including a compatibility run of the supplied tester
