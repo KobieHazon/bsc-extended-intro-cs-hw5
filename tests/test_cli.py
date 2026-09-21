@@ -1,4 +1,4 @@
-from extended_intro_hw5.cli import main
+from extended_intro_hw5_cli import main
 
 
 def test_det_command(capsys):

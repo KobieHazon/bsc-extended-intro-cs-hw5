@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from extended_intro_hw5.exercises import Matrix, analyze_genomes, intersects
+from extended_intro_hw5 import Matrix, analyze_genomes, intersects
 
 
 def parse_matrix(raw: str) -> Matrix:

@@ -92,7 +92,7 @@ def check_current_tree() -> None:
     required = {
         "README.md",
         "hw5.py",
-        "src/extended_intro_hw5/exercises.py",
+        "src/extended_intro_hw5.py",
         "tests/test_exercises.py",
         "solution/hw5.py",
         "solution/genome_analysis.py",

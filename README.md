@@ -19,7 +19,7 @@ cd bsc-extended-intro-cs-hw5
 uv sync --dev
 ```
 
-The maintained package supports Python 3.10 or newer and has no runtime dependencies.
+The implementation supports Python 3.10 or newer and has no runtime dependencies.
 
 ## Usage
 
@@ -49,5 +49,5 @@ The check target runs pytest, Ruff linting, Ruff format validation, and a reposi
 - `solution/genome_analysis.py`: my sequence-analysis script, kept for reference
 - `solution/written-answers.pdf`: my exported written answers
 - `hw5.py`: compatibility wrapper exposing the maintained assignment API for local tester use
-- `src/extended_intro_hw5/`: maintained algorithms and command-line interface
+- `src/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including a compatibility run of the supplied tester
