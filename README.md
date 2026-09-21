@@ -37,7 +37,7 @@ The first two commands print `-2` and `bab`. The genome-overlap command uses onl
 make check
 ```
 
-The check target runs pytest, Ruff linting, Ruff format validation, and a repository privacy/data sanity check.
+The check target runs pytest, Ruff linting, and Ruff format validation.
 
 ## Repository Structure
 
