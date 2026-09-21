@@ -94,8 +94,8 @@ def check_current_tree() -> None:
         "hw5.py",
         "src/extended_intro_hw5/exercises.py",
         "tests/test_exercises.py",
-        "solution/recovered_hw5.py",
-        "solution/recovered_genome_analysis.py",
+        "solution/hw5.py",
+        "solution/genome_analysis.py",
     }
     missing = sorted(required - current)
     if missing:

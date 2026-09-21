@@ -9,7 +9,7 @@ A 2018 CS BSc Python assignment covering dense and sparse matrices, recursive de
 - Compose partial functions and exponentiate them through repeated composition.
 - Insert and inspect binary-search-tree nodes, including stored heights and maximum height imbalance.
 - Hash fixed-length substrings and find shared sequence windows.
-- Load the recovered sequence inputs from FASTA files instead of importing very large Python string modules.
+- Load the sequence inputs from FASTA files instead of importing very large Python string modules.
 
 ## Setup
 
@@ -44,18 +44,10 @@ The check target runs pytest, Ruff linting, Ruff format validation, and a reposi
 - `assignment/hw5_tester.py`: supplied tester preserved in its original form
 - `assignment/printree.py`: supplied tree-printing helper preserved in its original form
 - `assignment/score-key.pdf`: supplied score key
-- `assignment/data/`: recovered sequence inputs stored as FASTA files
-- `solution/recovered_hw5.py`: my recovered submitted source, kept for reference
-- `solution/recovered_genome_analysis.py`: my recovered sequence-analysis script, kept for reference
+- `assignment/data/`: sequence inputs stored as FASTA files
+- `solution/hw5.py`: my submitted source, kept for reference
+- `solution/genome_analysis.py`: my sequence-analysis script, kept for reference
 - `solution/written-answers.pdf`: my exported written answers
 - `hw5.py`: compatibility wrapper exposing the maintained assignment API for local tester use
 - `src/extended_intro_hw5/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including a compatibility run of the supplied tester
-
-## Implementation notes
-
-The original submitted code imported the sequence inputs from very large Python modules. The current tree keeps those inputs as data files instead, which makes the repository easier to inspect and avoids importing multi-megabyte modules just to use the coursework API. The old module-based state remains available in the historical solution commit.
-
-## License
-
-No repository-wide license is declared because the repository combines original work with supplied material whose reuse terms were not recorded.

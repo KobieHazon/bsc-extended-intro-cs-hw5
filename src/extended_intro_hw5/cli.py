@@ -39,7 +39,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--data-dir",
         type=Path,
         default=Path("assignment/data"),
-        help="directory containing the recovered FASTA files",
+        help="directory containing the FASTA files",
     )
     genome_parser.add_argument(
         "--max-k",

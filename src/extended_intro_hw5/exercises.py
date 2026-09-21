@@ -317,7 +317,7 @@ class Tree_node:
 
 
 class Binary_search_tree:
-    """Unbalanced binary search tree with recovered assignment operations."""
+    """Unbalanced binary search tree with assignment operations."""
 
     def __init__(self):
         self.root: Tree_node | None = None
