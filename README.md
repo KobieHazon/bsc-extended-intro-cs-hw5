@@ -45,8 +45,8 @@ The check target runs pytest, Ruff linting, Ruff format validation, and a reposi
 - `assignment/printree.py`: supplied tree-printing helper preserved in its original form
 - `assignment/score-key.pdf`: supplied score key
 - `assignment/data/`: recovered sequence inputs stored as FASTA files
-- `solution/recovered_hw5.py`: my recovered submitted source, kept for provenance
-- `solution/recovered_genome_analysis.py`: my recovered sequence-analysis script, kept for provenance
+- `solution/recovered_hw5.py`: my recovered submitted source, kept for reference
+- `solution/recovered_genome_analysis.py`: my recovered sequence-analysis script, kept for reference
 - `solution/written-answers.pdf`: my exported written answers
 - `hw5.py`: compatibility wrapper exposing the maintained assignment API for local tester use
 - `src/extended_intro_hw5/`: maintained algorithms and command-line interface
